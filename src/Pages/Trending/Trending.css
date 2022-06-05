@@ -1,0 +1,13 @@
+.trending{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.MuiPagination-ul .MuiButtonBase-root{
+    color: #DBA446 !important;
+    
+}
+.MuiPaginationItem-root{
+    color:#DBA446 !important
+}

@@ -1,0 +1,72 @@
+*{
+  scroll-behavior: smooth;
+}
+.app{
+  min-height: 100vh;
+  background-color: #000000;
+  padding-top: 130px;
+  color: #fff;
+  padding-bottom: 70px;
+}
+@media (max-width:700px) {
+  .app{
+    padding-top: 70px;
+  }
+}
+.pageTitle{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 2vw;
+  padding: 5px;
+  border-radius: 50px;
+  color: rgb(242, 164, 70);
+  margin-top: 20px;
+}
+@media (max-width:1000px){
+  .pageTitle{
+    font-size: 6.4vw;
+  }
+  .search{
+    margin-top: 50px;
+  }
+}
+.css-wjsjww-MuiChip-label{
+  font-size: 17px;
+}
+.MuiFilledInput-root{
+  background-color: RED;
+}
+.css-19mk8g1-MuiInputBase-root-MuiFilledInput-root{
+  border: 1px solid #E79215;
+}
+.css-e4w4as-MuiFormLabel-root-MuiInputLabel-root {
+  color: #E79215 !important;
+}
+.css-19mk8g1-MuiInputBase-root-MuiFilledInput-root:after{
+  border-bottom: 2px solid #E79215 !important;
+}
+.css-1lfthva-MuiInputBase-input-MuiFilledInput-input:focus{
+  color: #ffffff !important;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+  background-color:#E79215 !important
+}
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected{
+  color: #e79215 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  background-color: #000000 !important;
+  
+  color: #e79215 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+  color: #e79215 !important;
+}
+.css-1aquho2-MuiTabs-indicator{
+  background-color: #e79215 !important;
+}
+.css-10botns-MuiInputBase-input-MuiFilledInput-input{
+  color: #fff !important;
+}
